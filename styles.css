@@ -1,0 +1,110 @@
+* {
+  text-align: center;
+}
+
+h1,
+h2,
+section,
+form,
+footer {
+  font-family: "Courier New", Times, serif;
+}
+
+#personaAdmirada {
+  font-weight: bold;
+  font-style: italic;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+  border-collapse: collapse;
+  padding: 0.3em;
+  caption-side: bottom;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #00008b;
+  color: white;
+}
+
+#description,
+#artistDesciption {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+li {
+  text-align: left;
+  margin-left: 45%;
+}
+.nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+body {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Add a top margin to avoid content overlay */
+}
+
+button {
+  vertical-align: middle;
+}
+
+p {
+  width: 500px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+img.contacto {
+  vertical-align: middle;
+}
+
+form {
+  background-color: #00008b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  width: 320px;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  cursor: pointer;
+  color: white;
+  display: block;
+  padding: 5px;
+  margin: 5px;
+}

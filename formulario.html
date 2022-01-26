@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="icon" type="image/x-icon" href="registration-form.png" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <a href="index.html">Sobre Mí.</a>
+      <a href="formulario.html">Formulario</a>
+    </div>
+
+    <form action="formulario.html" method="GET">
+      <label for="name">Nombre:</label>
+      <input type="text" name="nombre" id="name" required /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required /><br /><br />
+
+      <label for="genero">Selecciona tu sexo:</label>
+      <label for="radioMasculino">
+        <input
+          required
+          id="radioMasculino"
+          type="radio"
+          name="genero"
+          value="M"
+        />
+        Masculino</label
+      >
+      <label for="radioFemenino">
+        <input
+          required
+          id="radioFemenino"
+          type="radio"
+          name="genero"
+          value="F"
+        />
+        Femenino</label
+      ><br />
+      <label for="password">Contraseña:</label>
+      <input type="text" name="password" id="password" required /><br /><br />
+
+      <label for="comentario">Comentario:</label>
+      <textarea id="comentario" name="comentario" rows="4"></textarea
+      ><br /><br />
+      <label for="ciudad">Selecciona tu ciudad:</label>
+      <select name="ciudad" id="ciudad">
+        <option value="El Salto">El Salto</option>
+        <option value="Guadalajara">Guadalajara</option>
+        <option value="Tlajomulco">Tlajomulco</option>
+        <option value="Tlaquepaque">Tlaquepaque</option>
+        <option value="Tonalá">Tonalá</option>
+        <option value="Zapopan">Zapopan</option>
+        <option value="Otro">Otro</option>
+      </select>
+      <br /><br />
+
+      <label for="contratacion"
+        ><input
+          id="contratacion"
+          type="checkbox"
+          name="contratacion"
+          value="C"
+        />
+        Me interesa contratarte</label
+      ><br />
+
+      <button type="submit">
+        <img
+          class="contacto"
+          src="next.png"
+          alt="imagen"
+          width="32"
+          height="32"
+        />
+        Enviar
+      </button>
+    </form>
+  </body>
+</html>
